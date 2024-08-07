@@ -1,13 +1,12 @@
-import './App.css'
-import Login from './Login/Login'
+import "./App.css";
+import { useState } from "react";
+import { State } from "./hooks/useState";
+import Effect from "./hooks/useEffect";
 
-function App() {
-
-  return (
-    <div className="App">
-    <Login />
-    </div>
-  )
-}
-
-export default App
+const App = () => {
+  return <>
+    <State/>
+    <Effect/>
+  </>;
+};
+export default App;
